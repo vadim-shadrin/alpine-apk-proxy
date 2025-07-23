@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  app:
+    build:
+      context: ./app
+    volumes:
+      - ./app:/usr/src/app
+    env_file: ./app/.env.prod
+
+    ports:
+      - 8080:8080
