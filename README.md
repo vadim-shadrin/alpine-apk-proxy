@@ -1,5 +1,5 @@
 # alpine-apk-proxy
-You can use this service as chaching proxy for alpine linux artefacts
+You can use this service as caching proxy for alpine linux artefacts
 
 just change your /etc/apk/repositories
 
